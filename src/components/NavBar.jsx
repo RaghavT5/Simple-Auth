@@ -31,7 +31,7 @@ const NavBar = () => {
           </h1>
         </Link>
 
-        <ul className="hidden sm:flex flex-wrap">
+        <ul className="hidden sm:flex">
           {loggedIn ? (
             <>
               <div className="flex flex-col">
